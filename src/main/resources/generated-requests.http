@@ -1,0 +1,89 @@
+###
+GET http://localhost:8080/api/produtos
+
+<> 2023-01-13T215448.404.json
+<> 2023-01-12T212813.200.json
+
+###
+GET http://localhost:8080/api/v1/produtos
+
+<> 2023-01-13T215638.200.json
+<> 2023-01-13T215536.200.json
+<> 2023-01-13T215459.200.json
+
+###
+POST http://localhost:8080/api/v1/pedidos
+
+
+###
+POST http://localhost:8080/api/v1/pedidos
+Content-Type: application/json
+
+[{"gtin":"7894900011517","quantidade":0},{"gtin":"7891910000197","quantidade":0},{"gtin":"7892840222949","quantidade":0},{"gtin":"7891910007110","quantidade":0},{"gtin":"7891000053508","quantidade":0},{"gtin":"7891000100103","quantidade":0},{"gtin":"7891991010856","quantidade":2}]
+
+<> 2023-01-13T222344.400.html
+<> 2023-01-13T222301.400.html
+
+###
+POST http://localhost:8080/api/v1/pedidos
+Content-Type: application/json
+
+[{"gtin":"","quantidade":0}]
+
+<> 2023-01-22T145950.500.json
+
+###
+GET http://localhost:8080/lista/contatos
+
+###
+GET http://localhost:8080/contatos
+
+<> 2023-02-26T162453.200.json
+<> 2023-02-26T154846.200.json
+<> 2023-02-26T154326.200.json
+<> 2023-02-26T154310.200.json
+
+###
+GET http://localhost:8080/test
+Content-Type: application/json
+{testeInjecao: "TESTE_A"}
+<> 2023-11-27T210320.404.json
+
+<> 2023-11-27T210440.400.html
+<> 2023-11-27T210423.400.html
+<> 2023-11-27T210402.400.html
+
+###
+GET http://localhost:8080/test/TESTE_A
+
+<> 2023-11-27T210735.404.json
+
+###
+GET http://localhost:8080/test
+
+<> 2023-11-27T210942.404.json
+<> 2023-11-27T210938.404.json
+<> 2023-11-27T210934.404.json
+
+###
+GET http://localhost:8080/test/
+
+<> 2023-11-27T212032.404.json
+
+###
+GET http://localhost:8080/test/
+
+<> 2023-11-27T212154.404.json
+<> 2023-11-27T212146.404.json
+
+###
+GET http://localhost:8080/test/injetar2?teste=TESTE_B
+
+<> 2024-01-22T210402.500.json
+<> 2024-01-22T210106.500.json
+<> 2024-01-22T210013.200.txt
+<> 2024-01-22T205929.200.txt
+<> 2024-01-22T205855.404.json
+<> 2023-11-27T212739.200.txt
+<> 2023-11-27T212727.200.txt
+<> 2023-11-27T212701.200.txt
