@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping(value = "/test")
 public class ControllerTest {
-
+    //Ajudou --> https://medium.com/edureka/what-is-dependency-injection-5006b53af782
     private final TesteInjecaoService testeInjecao;
 
     public ControllerTest(TesteInjecaoService testeInjecao) {
